@@ -15,10 +15,26 @@ a {
     clear: both;
 }
 
+header, nav, h2, .main-visual, footer {
+	font-family: chalkduster, "Bradly Hand", courier, "Segoe Print", sans-serif;
+}
+
 header {
+	position: relative;
     width: 100%;
     text-align: center;
     margin: 15px 0;
+}
+
+.social {
+	position: absolute;
+	top: 22px;
+	right: 22px;
+}
+
+.social i {
+	display: inline-block;
+	margin-right: 20px;
 }
 
 header .headline{
